@@ -16,70 +16,70 @@
 
 /* الكونتينر */
 .courses-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
 /* الكارد */
 .card {
-  background: #1c2541;
-  border-radius: 15px;
-  padding: 20px;
-  text-align: center;
-  color: white;
-  transition: 0.3s ease;
-  border: 1px solid #3a506b;
-  position: relative;
-  overflow: hidden;
+    background: #1c2541;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    transition: 0.3s ease;
+    border: 1px solid #3a506b;
+    position: relative;
+    overflow: hidden;
 }
 
 /* تأثير Hover */
 .card:hover {
-  transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 0 20px #00d4ff;
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 0 20px #00d4ff;
 }
 
 /* عنوان */
 .card h3 {
-  color: #00d4ff;
-  margin-bottom: 10px;
+    color: #00d4ff;
+    margin-bottom: 10px;
 }
 
 /* المادة */
 .card p {
-  font-size: 16px;
-  margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 /* الوقت */
 .card span {
-  display: inline-block;
-  background: #00d4ff;
-  color: #0b132b;
-  padding: 5px 10px;
-  border-radius: 10px;
-  font-size: 14px;
+    display: inline-block;
+    background: #00d4ff;
+    color: #0b132b;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
 }
 
 /* خط متحرك خفيف */
 .card::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  background: linear-gradient(to right, transparent, #00d4ff, transparent);
-  top: 0;
-  left: -100%;
-  transition: 0.5s;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #00d4ff, transparent);
+    top: 0;
+    left: -100%;
+    transition: 0.5s;
 }
 
 .card:hover::before {
-  left: 100%;
+    left: 100%;
 }
 
-.yes{
+.yes {
     display: flex;
     justify-content: space-between;
 }
@@ -193,7 +193,7 @@ form {
     padding: 20px;
     border-radius: 10px;
     box-shadow: #020617 0px 10px 30px;
-     font-family: "Space Grotesk", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 /* Inputs */
@@ -211,7 +211,8 @@ input:focus,
 textarea:focus {
     outline: 2px solid #00d4ff;
 }
-input::placeholder{
+
+input::placeholder {
     font-family: "Space Grotesk", sans-serif;
 }
 
