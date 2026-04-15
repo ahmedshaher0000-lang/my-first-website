@@ -38,12 +38,12 @@
 /* تأثير Hover */
 .card:hover {
   transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 0 20px #00d4ff;
+  box-shadow: 0 0 20px #1abc9c;
 }
 
 /* عنوان */
 .card h3 {
-  color: #00d4ff;
+  color: #1abc9c;
   margin-bottom: 10px;
 }
 
@@ -56,7 +56,7 @@
 /* الوقت */
 .card span {
   display: inline-block;
-  background: #00d4ff;
+  background: #1abc9c;
   color: #0b132b;
   padding: 5px 10px;
   border-radius: 10px;
@@ -69,7 +69,7 @@
   position: absolute;
   width: 100%;
   height: 3px;
-  background: linear-gradient(to right, transparent, #00d4ff, transparent);
+  background: linear-gradient(to right, transparent, #1abc9c, transparent);
   top: 0;
   left: -100%;
   transition: 0.5s;
