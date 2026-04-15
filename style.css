@@ -138,6 +138,8 @@ nav a:hover::after {
 main {
     padding: 30px;
     flex-wrap: wrap;
+    box-shadow: #00d4ff 0px 10px 30px;
+     font-family: "Space Grotesk", sans-serif;
 
 }
 
