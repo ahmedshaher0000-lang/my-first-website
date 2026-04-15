@@ -4,16 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-/*.no {
-    display: flex;
-    justify-content: space-between;
-    border:  solid;
-    
-
-
-}*/
-
 /* الكونتينر */
 .courses-container {
     display: grid;
