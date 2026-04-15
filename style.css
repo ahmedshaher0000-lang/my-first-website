@@ -124,7 +124,7 @@ form {
     background: #1e293b;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: #020617 0px 4px 8px;
+    box-shadow: #020617 0px 10px 30px;
 }
 
 /* Inputs */
