@@ -8,7 +8,7 @@
 /*.no {
     display: flex;
     justify-content: space-between;
-    border: #1abc9c solid;
+    border:  solid;
     
 
 
@@ -38,12 +38,12 @@
 /* تأثير Hover */
 .card:hover {
   transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 0 20px #1abc9c;
+  box-shadow: 0 0 20px #00d4ff;
 }
 
 /* عنوان */
 .card h3 {
-  color: #1abc9c;
+  color: #00d4ff;
   margin-bottom: 10px;
 }
 
@@ -56,7 +56,7 @@
 /* الوقت */
 .card span {
   display: inline-block;
-  background: #1abc9c;
+  background: #00d4ff;
   color: #0b132b;
   padding: 5px 10px;
   border-radius: 10px;
@@ -69,7 +69,7 @@
   position: absolute;
   width: 100%;
   height: 3px;
-  background: linear-gradient(to right, transparent, #1abc9c, transparent);
+  background: linear-gradient(to right, transparent, #00d4ff, transparent);
   top: 0;
   left: -100%;
   transition: 0.5s;
@@ -78,6 +78,7 @@
 .card:hover::before {
   left: 100%;
 }
+
 .yes{
     display: flex;
     justify-content: space-between;
@@ -98,7 +99,7 @@ header {
     background: #020617;
     font-size: 26px;
     letter-spacing: 1px;
-    border-bottom: 2px solid #1abc9c;
+    border-bottom: 2px solid #00d4ff;
 }
 
 /* Navbar */
@@ -121,7 +122,7 @@ nav a::after {
     content: "";
     width: 0;
     height: 2px;
-    background: #1abc9c;
+    background: #00d4ff;
     position: absolute;
     left: 0;
     bottom: 5px;
@@ -159,7 +160,7 @@ table {
 
 /* Header Table */
 th {
-    background: #1abc9c;
+    background: #00d4ff;
     color: black;
     padding: 15px;
 }
@@ -177,7 +178,7 @@ tr {
 
 /* Hover */
 tr:hover {
-    background: #1abc9c;
+    background: #00d4ff;
     color: black;
     transition: 0.3s;
 }
@@ -205,14 +206,14 @@ textarea {
 /* Focus */
 input:focus,
 textarea:focus {
-    outline: 2px solid #1abc9c;
+    outline: 2px solid #00d4ff;
 }
 
 /* Button */
 button {
     width: 100%;
     padding: 12px;
-    background: #1abc9c;
+    background: #00d4ff;
     border: none;
     color: black;
     font-weight: bold;
@@ -223,7 +224,7 @@ button {
 
 /* Button Hover */
 button:hover {
-    background: #22c55e;
+    background: blue;
     transform: scale(1.05);
 }
 
